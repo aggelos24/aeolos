@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	font-size: 16px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+}
+
+#top-bar-image {
+	transition-property: width;
+	transition-duration: 0.5s;
+}
+
+#top-bar-text {
+	transition-property: font-size;
+	transition-duration: 0.5s;
+}
+
+.bg-white {
+	background-color: white;
+}
+
+.bg-green {
+	background-color: #1a6538;
+}
+
+.bg-black-trans {
+	background-color: rgba(0,0,0,0.5);
+}
+
+.bg-green-to-white-right {
+	background-image: linear-gradient(to right, #1a6538 80%, white);
+}
+
+.bg-green-to-white-left {
+	background-image: linear-gradient(to left, #1a6538 80%, white);
+}
+
+.text-white {
+	color: white;
+}
+
+.text-green {
+	color: #1a6538;
+}
+
+.text-light-green-hover:hover {
+	color: #198754;
+}
+
+.text-underline_hover:hover {
+	text-decoration: underline;
+}
+
+.white-space-nowrap {
+	white-space: nowrap;
+}
+
+.fs-18px {
+	font-size: 18px;
+}
+
+.fs-25px {
+	font-size: 25px;
+}
+
+.fs-60px {
+	font-size: 60px;
+}
+
+.font-weight-bold {
+	font-weight: 700;
+}
+
+.p-5px {
+	padding: 5px;
+}
+
+.py-8px {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.py-50px {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.px-10px {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.mt-10px {
+	margin-top: 10px;
+}
+
+.mt-20px {
+	margin-top: 20px;
+}
+
+.mt-100px {
+	margin-top: 100px;
+}
+
+.mt-200px {
+	margin-top: 200px;
+}
+
+.ml-10px {
+	margin-left: 10px;
+}
+
+.w-30 {
+	width: 30%;
+}
+
+.w-50-45px {
+	width: calc(50% - 45px);
+}
+
+.w-50 {
+	width: 50%;
+}
+
+.w-70 {
+	width: 70%;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.w-50px {
+	width: 50px;
+}
+
+.w-80px {
+	width: 80px;
+}
+
+.object-fit-contain {
+	object-fit: contain;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.b-image {
+	background-color: #f5f6f7;
+	background-image: url("../photos/rugby.jpg");
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: calc(100vh - 125px);
+}
+
+.d-none {
+	display: none;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.flex-center {
+	justify-content: center;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.flex-space-between {
+	justify-content: space-between;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.align-items-center {
+	-webkit-box-align: center;
+	align-items: center;
+}
+
+.sticky {
+	position: sticky;
+	top: 0;
+}
+
+.relative {
+	position: relative;
+}
+
+.bottom-95px {
+	bottom: 95px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+	.d-up-to-lg-none {
+		display: none;
+	}
+
+	.w-100-up-to-lg {
+		width: 100%;
+	}
+
+	.content {
+		width: 100%;
+		margin-left: 0;
+	}
+}
+
+@media only screen and (min-width: 1001px) {
+	.d-from-lg-none {
+		display: none;
+	}
+
+	.w-70-from-lg {
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.d-up-to-m-none {
+		display: none;
+	}
+
+	.px-up-to-m-50px {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
+
+@media only screen and (min-width: 701px) {
+	.d-from-m-none {
+		display: none;
+	}
+
+	.px-from-m-150px {
+		padding-left: 150px;
+		padding-right: 150px;
+	}
+
+	.px-from-m-400px {
+		padding-left: 400px;
+		padding-right: 400px;
+	}
+}
